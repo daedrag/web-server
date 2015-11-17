@@ -1,0 +1,11 @@
+Commands to deploy to Heroku
+
+1- Make sure push to git first:
+    $ git push
+
+2- Create heroku app at app directory:
+    $ heroku create
+    $ heroku open
+
+3- Push to Heroku & auto deploy
+    $ git push heroku master
